@@ -1,20 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:mint/nav_bar.dart';
+
+import 'home.dart';
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+  runApp(
+    MaterialApp(
+      home: const BottomNavBar(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: true,
       ),
-    );
-  }
+    )
+  );
 }
