@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mint/nav_bar.dart';
-
-import 'home.dart';
+import 'nav_bar/nav_bar.dart';
 
 void main() {
   runApp(

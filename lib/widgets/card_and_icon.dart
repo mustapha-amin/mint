@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mint/consts.dart';
-import 'package:mint/textstyle.dart';
+
+import '../utils/consts.dart';
+import '../utils/textstyle.dart';
 
 class CardAndIcon extends StatelessWidget {
   const CardAndIcon({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mint/consts.dart';
-import 'package:mint/textstyle.dart';
+import '../utils/consts.dart';
+import '../utils/textstyle.dart';
 
 class Header extends StatelessWidget {
   const Header({super.key});
@@ -14,7 +14,7 @@ class Header extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Total balance", style: kTextStyle(15)),
-            Text("$nairaSymbol 2,908,343.34", style: kTextStyle(17)),
+            Text("$nairaSymbol 285,908,343.34", style: kTextStyle(17)),
           ],
         ),
         const Row(

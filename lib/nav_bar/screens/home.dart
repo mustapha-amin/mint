@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:mint/textstyle.dart';
 import 'package:mint/widgets/card_and_icon.dart';
 import 'package:mint/widgets/header.dart';
 import 'package:mint/widgets/service.dart';
 import 'package:mint/widgets/transaction_tile.dart';
+
+import '../../utils/textstyle.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});

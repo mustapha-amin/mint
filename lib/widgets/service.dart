@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mint/textstyle.dart';
+import '../utils/textstyle.dart';
 
 class Service extends StatelessWidget {
   final IconData iconData;

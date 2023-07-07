@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:mint/consts.dart';
-import 'package:mint/textstyle.dart';
+
+import '../utils/consts.dart';
+import '../utils/textstyle.dart';
 
 class TransactionTile extends StatelessWidget {
   final String name;
   final String date;
   final String amount;
-  const TransactionTile(
-      {required this.name,
-      required this.date,
-      required this.amount,
-      super.key});
+  
+  const TransactionTile({
+    required this.name,
+    required this.date,
+    required this.amount,
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
