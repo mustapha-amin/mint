@@ -14,19 +14,27 @@ class Header extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Total balance", style: kTextStyle(15)),
-            Text(
-              "$nairaSymbol 2,908,343.34",
-              style: kTextStyle(17)
-            ),
+            Text("$nairaSymbol 2,908,343.34", style: kTextStyle(17)),
           ],
         ),
-        Row(
+        const Row(
           children: [
             Icon(Icons.visibility_outlined),
             SizedBox(
               width: 15,
             ),
-            Icon(Icons.notifications_outlined),
+            Stack(
+              children: [
+                Icon(Icons.notifications_outlined),
+                Positioned(
+                  right: 6,
+                  top: 4,
+                  child: Badge(
+                    textColor: Colors.red,
+                  ),
+                )
+              ],
+            ),
           ],
         )
       ],
