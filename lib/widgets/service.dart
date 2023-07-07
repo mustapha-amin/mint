@@ -39,7 +39,7 @@ class Service extends StatelessWidget {
             backgroundColor: iconbgColor,
             child: Icon(
               iconData,
-              size: 20,
+              size: 18,
               color: Colors.white,
             ),
           ),
@@ -49,7 +49,7 @@ class Service extends StatelessWidget {
             children: [
               Text(
                 title,
-                style: kTextStyle(18),
+                style: kTextStyle(17),
               ),
               Text(
                 description,

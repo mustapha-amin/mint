@@ -13,8 +13,8 @@ class Header extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Total balance", style: kTextStyle(15)),
-            Text("$nairaSymbol 285,908,343.34", style: kTextStyle(17)),
+            Text("Total balance", style: kTextStyle(17)),
+            Text("$nairaSymbol 285,908,343.34", style: kTextStyle(18)),
           ],
         ),
         const Row(

@@ -29,12 +29,16 @@ class CardAndIcon extends StatelessWidget {
                 children: [
                   Text(
                     "Mint wallet",
-                    style: kTextStyle(17, Colors.white),
+                    style: kTextStyle(15, Colors.white),
                   ),
+                  const Icon(
+                    Icons.wallet_rounded,
+                    color: Colors.white,
+                  )
                 ],
               ),
               Text(
-                "$nairaSymbol 2,908,343.34",
+                "$nairaSymbol 285,908,343.34",
                 style: kTextStyle(23, Colors.white),
               ),
               Row(
@@ -42,7 +46,7 @@ class CardAndIcon extends StatelessWidget {
                 children: [
                   Text(
                     "Mustapha Amin",
-                    style: kTextStyle(17, Colors.white),
+                    style: kTextStyle(15, Colors.white),
                   ),
                   const Icon(
                     Icons.more_horiz,
